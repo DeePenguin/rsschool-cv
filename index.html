@@ -5,11 +5,276 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Chekhova Kristina</title>
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/default.min.css" rel="stylesheet">
+  <link type="image/x-icon" href="assets/images/favicon.png" rel="shortcut icon">
 </head>
 
-<body>
-
+<body class="body">
+  <header class="header" id="home">
+    <div class="wrapper">
+      <h1 class="header-title">
+        Hello, I'm <span class="accent">Kristina</span>.
+      </h1>
+      <p>
+        I'm front-end developer. <br>
+        Or I'm trying to become.
+      </p>
+      <a class="link" href="#about">&#8595;</a>
+    </div>
+  </header>
+  <nav class="navigation">
+    <div class="wrapper">
+      <input class="toggle" id="toggle" type="checkbox">
+      <label class="toggle-label" for="toggle">
+        <span class="icon icon-toggle"></span>
+      </label>
+      <ul class="menu">
+        <li>
+          <a class="link" href="#home">Home</a>
+        </li>
+        <li>
+          <a class="link" href="#about">About me</a>
+        </li>
+        <li>
+          <a class="link" href="#experience">Experience</a>
+        </li>
+        <li>
+          <a class="link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="hidden">
+          <a class="link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+      <ul class="contacts">
+        <li>
+          <a class="link icon-mail icon" href="mailto:chekhova.perm@gmail.com" title="Mail me" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-phone icon" href="tel:+79999999999" title="Call me" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-skype icon" href="skype:dee.penguin?chat" title="Skype" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-telegram icon" href="https://t.me/DeePenguin" title="Telegram" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-github icon" href="https://github.com/DeePenguin" title="Github" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-discord icon" href="https://discordapp.com/users/525347428187242508" title="Discord"
+            target="_blank"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main">
+    <div class="wrapper">
+      <section class="section about" id="about">
+        <h2 class="section_header">About me</h2>
+        <div class="section_content">
+          <p class="section_content_block">
+            Hi there! I'm 30 years old and I've decided to try myself in a new role.
+            I study web development because I like to create magic from nothing. Visualization of results is the most
+            important part of this process for me. I really enjoy learning something
+            new, trying some new features and technologies.
+          </p>
+          <p class="section_content_block">
+            I have a bit of web development experience in layouts (using HTML, CSS, CSS preprocessors, vanilla JS and
+            frameworks / libraries, Webpack, Node.js), CMS template creation, simple browser
+            extensions.
+          </p>
+          <p class="section_content_block">
+            <strong>My objectives</strong> are improving my knowledge and skills in computer science fields and new
+            technologies especially, web development field, in order to change my field of activities and become an
+            excellent developer.
+          </p>
+          <p class="section_content_block">
+            Good analytical skills, quick learner, motivated to professional growth.
+          </p>
+        </div>
+        <div class="additional_content">
+          <img class="main-photo" src="./assets/images/photo.jpg" alt="My photo" width="300" height="300">
+          <section class="additional_skills">
+            <h2 class="additional_header">Skills</h2>
+            <ul class="skills_list">
+              <li class="skills_item">English - B1</li>
+              <li class="skills_item">HTML5</li>
+              <li class="skills_item">CSS3</li>
+              <li class="skills_item">BEM</li>
+              <li class="skills_item">CSS-preprocessors (Sass, Less)</li>
+              <li class="skills_item">JavaScript</li>
+              <li class="skills_item">React</li>
+              <li class="skills_item">Node.js</li>
+              <li class="skills_item">Git</li>
+              <li class="skills_item">Graphic editors</li>
+            </ul>
+          </section>
+        </div>
+      </section>
+      <section class="section experience" id="experience">
+        <h2 class="section_header">Experience</h2>
+        <div class="experience_list_wrapper">
+          <h3 class="additional_header">Work</h3>
+          <ul class="experience_list">
+            <li class="experience_item">
+              <h4 class="item_header">
+                VK
+              </h4>
+              <p class="item_description">
+                <span class="item_period">
+                  <time datetime="2018-03">April 2021</time> -
+                  <time datetime="2018-11">April 2022</time>
+                </span>
+                Automatization of moderation
+              </p>
+              <p class="item_year">2022</p>
+            </li>
+            <li class="experience_item">
+              <h4 class="item_header">
+                Mail.Ru Group
+              </h4>
+              <p class="item_description">
+                <span class="item_period">
+                  <time datetime="2020-09">September 2020</time> -
+                  <time datetime="2021-04">April 2021</time>
+                </span>
+                Team lead
+              </p>
+              <p class="item_year">2021</p>
+            </li>
+            <li class="experience_item">
+              <h4 class="item_header">
+                Mail.Ru Group
+              </h4>
+              <p class="item_description">
+                <span class="item_period">
+                  <time datetime="2018-11">November 2018</time> -
+                  <time datetime="2020-09">September 2020</time>
+                </span>
+                Auditor of moderation
+              </p>
+              <p class="item_year">2020</p>
+            </li>
+            <li class="experience_item">
+              <h4 class="item_header">
+                Mail.Ru Development
+              </h4>
+              <p class="item_description">
+                <span class="item_period">
+                  <time datetime="2018-03">March 2018</time> -
+                  <time datetime="2018-11">November 2018</time>
+                </span>
+                Moderation of the Youla project
+              </p>
+              <p class="item_year">2018</p>
+            </li>
+          </ul>
+        </div>
+        <div class="experience_list_wrapper">
+          <h3 class="additional_header">Education</h3>
+          <ul class="experience_list">
+            <li class="experience_item">
+              <h4 class="item_header">
+                Incomplete higher education
+              </h4>
+              <p class="item_description">
+                <span class="item_period">
+                  <time datetime="2013">2013</time>
+                </span>
+                PIEF - Management
+              </p>
+              <p class="item_year">2013</p>
+            </li>
+            <li class="experience_item">
+              <h4 class="item_header">
+                Secondary special education
+              </h4>
+              <p class="item_description">
+                <span class="item_period">
+                  <time datetime="2011">2011</time>
+                </span>
+                PFEC - Tourism specialist with advanced english
+              </p>
+              <p class="item_year">2011</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section portfolio" id="portfolio">
+        <h2 class="section_header">Portfolio</h2>
+        <ul class="portfolio_list">
+          <li class="portfolio_item">
+            <h3 class="item_header">Hexal</h3>
+            <a class="link item_link" href="https://deepenguin.github.io/hexal" title="Hexal" target="_blank">
+              <figure>
+                <img class="item_thumb" src="./assets/images/portfolio_1.jpg" alt="Portfolio item" width="400"
+                  height="300">
+                <figcaption class="item_description">HTML + CSS</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li class="portfolio_item">
+            <h3 class="item_header">Neutron Mail</h3>
+            <a class="link item_link" href="https://deepenguin.github.io/NeutronMail" title="Neutron Mail"
+              target="_blank">
+              <figure>
+                <img class="item_thumb" src="./assets/images/portfolio_2.jpg" alt="Portfolio item" width="400"
+                  height="300">
+                <figcaption class="item_description">HTML + CSS</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="section code_example" id="code_example">
+        <h2 class="section_header">Code example</h2>
+        <pre class="pre">
+          <code class="code">
+            function partialUsingArguments(fn, ...x) {
+              return (...args) =&gt; fn(...x, ...args);
+            }
+          </code>
+        </pre>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="wrapper">
+      <a class="link rs_link" href="https://rs.school/js/" title="Курс «JavaScript/Front-end»" target="_blank">
+        <img class="rs_logo" src="./assets/images/rs_school_js.svg" alt="RS School logo" width="200" height="74">
+      </a>
+      <ul class="contacts" id="contacts">
+        <li>
+          <a class="link icon-mail icon" href="mailto:chekhova.perm@gmail.com" title="Mail me" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-phone icon" href="tel:+79999999999" title="Call me" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-skype icon" href="skype:dee.penguin?chat" title="Skype" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-telegram icon" href="https://t.me/DeePenguin" title="Telegram" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-github icon" href="https://github.com/DeePenguin" title="Github" target="_blank"></a>
+        </li>
+        <li>
+          <a class="link icon-discord icon" href="https://discordapp.com/users/525347428187242508" title="Discord"
+            target="_blank"></a>
+        </li>
+      </ul>
+      <p class="copy">&copy; DeePenguin 2022</p>
+    </div>
+  </footer>
+  <script src="assets/scripts/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
 </body>
 
 </html>
